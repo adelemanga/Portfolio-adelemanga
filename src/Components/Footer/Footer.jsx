@@ -12,13 +12,13 @@ function Footer() {
         <div className="f-content">
             <span>adelemanga75@gmail.com</span>
             <div className="f-icons">
-                <Insta color='white' size='3rem'/>
+                 <Insta color='white' size='3rem'/>
                 <Facebook color='white' size='3rem'/>
-                <Github color='white' size='3rem'/>
+                <Github src="" color='white' size='3rem'/>
             </div>
         </div>
     </div>
   )
 }
 
-export default Footer
+export default Footer;

@@ -5,10 +5,12 @@ import Moon from '@iconscout/react-unicons/icons/uil-moon';
 import {themeContext} from '../Context';
 import { useContext } from 'react';
 
-function Toggle() {
+export const Toggle = () => {
   const theme = useContext(themeContext);
-  const darkMode = the.state.darkMode;
-  const handleClick = () =>{
+  const darkMode = theme.state.darkMode;
+
+
+  const handleClick = () => {
     theme.dispatch({type: "toggle"})
   }
 

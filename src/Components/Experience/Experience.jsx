@@ -1,28 +1,26 @@
-import React from 'react'
-import './Experience.css';
+import React from "react";
+import "./Experience.css";
 
 function Experience() {
   return (
-    <div className="experience">
-        <div className="achievement">
-            <div className="circle">2+</div>
-            <span>years</span>
-            <span>Experience</span>
-        </div>
-        <div className="achievement">
-            <div className="circle">5+</div>
-            <span>completed</span>
-            <span>Project</span>
-        </div>
-        <div className="achievement">
-            <div className="circle">20+</div>
-            <span>companies</span>
-            <span>work</span>
-        </div>
-
-
+    <div className="experience" id="Expérience">
+      <div className="achievement">
+        <div className="circle">1+</div>
+        <span>année</span>
+        <span>Experience</span>
+      </div>
+      <div className="achievement">
+        <div className="circle">1+</div>
+        <span>Projet</span>
+        <span>complété</span>
+      </div>
+      <div className="achievement">
+        <div className="circle">1+</div>
+        <span>Travail</span>
+        <span>service</span>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Experience
+export default Experience;
